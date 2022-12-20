@@ -1,0 +1,50 @@
+:root {
+ --pink:#FA2256;
+ --animation-curve: cubic-bezier(0.12,0.7,0.74,0.71);
+}
+
+.tel-body div{
+    margin-top: 11px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(11, 35, 173);
+    position: absolute;
+    animation: scaling 2s var(--animation-curve) infinite;
+}
+
+@keyframes scaling {
+    0%{
+        transform:scale(4);
+        background-color: var(--pink);
+    }
+    100%{
+        transform:scale(10);
+        background-color: rgba(5, 255, 109, 0);
+    }
+}
+.tel-cri1{
+    animation-delay: 0s;
+}
+.tel-cri2{
+    animation-delay: 5s;
+}
+.tel-iocn{
+    z-index: 2;
+    background-color: var(--pink);
+    animation:  phone 1s var(--animation-curve) infinite alternate-reverse;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 0.09px #757b8c solid;
+    
+}
+
+@keyframes phone {
+    0% {
+        transform:scale(4);
+    }
+    100% {
+        transform:scale(4.5);
+    }
+}

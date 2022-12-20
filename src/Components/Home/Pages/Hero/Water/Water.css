@@ -1,0 +1,36 @@
+.water-bady p{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.loader{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(5, 5, 5);
+}
+.loader span {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,10%{
+        width: 100px;
+        height: 100px;
+        transform: rotate(0deg) translateX(120px);
+    }   
+    40%,70%{
+        width: 40px;
+        height: 40px;
+        transform: rotate(calc(360deg / 8 * var(--i))) translateX(120px);
+    } 
+}

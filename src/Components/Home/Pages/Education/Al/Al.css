@@ -1,0 +1,383 @@
+.aihea-body{
+    background-color: var(--hed3);
+    color: var(--hed1);
+}
+.ai-body{
+    
+    color: var(--hed1);
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+  
+   
+    
+}
+.edu-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    transition: transform 900ms ease;
+    width: 97.5%;
+}
+.edu-header:hover{
+    transform: scale(1.05);
+    
+}
+.et{
+    background-color: var(--hed2);
+    box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+  border-radius: 10px; 
+  margin-top: 80px;
+  padding: 40px 50px;
+  cursor: pointer;
+ 
+}
+.et:hover{
+    background-color:  #3efcec
+}
+
+.aibody-list{
+    flex: 1;
+    background-color: var(--hed2);
+    box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+  border-radius: 10px; 
+  margin: 40px 20px;
+}
+.olbody-list{
+    flex: 2;
+    background-color: var(--hed2);
+    box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+  border-radius: 10px; 
+  margin: 40px 20px;
+}
+.al-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight:500;
+    margin: 10px 50px;
+}
+
+.al-list p{
+    margin: 0px 0px;
+    
+}
+
+
+.al-pass{
+    display: flex;
+    width: 300px;
+    
+   
+}
+
+
+.at{
+    font-size: 35px;
+    font-weight:500; 
+}
+
+.olpass-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight:500;
+    margin: 10px 200px;
+    column-gap: 200px;
+}
+.one-ol{
+    flex: 1;
+}
+.two-ol{
+    flex: 3;
+}
+.ol-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ol-list p{
+    margin-left: 20px;
+}
+
+/* for 24 inch */
+@media screen and (max-width : 1920px) {
+    .at{
+        font-size: 25px;
+        font-weight:400; 
+    }
+    .ai-body{
+        column-gap: 0px;
+    }
+    .olpass-list{
+  
+        margin: 10px 100px;
+        column-gap: 100px;
+    }
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    .at{
+        font-size: 25px;
+        font-weight:400; 
+    }
+    .ai-body{
+        column-gap: 0px;
+    }
+    .olpass-list{
+  
+        margin: 10px 100px;
+        column-gap: 100px;
+    }
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+@media screen and (max-width : 1480px) {
+    .at{
+        font-size: 25px;
+        font-weight:400; 
+    }
+    .ai-body{
+        column-gap: 0px;
+    }
+    .olpass-list{
+  
+        margin: 10px 10px;
+        column-gap: 50px;
+    }
+   
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+    .at{
+        font-size: 20px;
+        font-weight:400; 
+    }
+    .ai-body{
+        column-gap: 0px;
+    }
+    .olpass-list{
+  
+        margin: 10px 0px;
+        column-gap: 20px;
+    }
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+@media screen and (max-width : 1230px) {
+    .edu-header{
+        margin-top: 50px;
+    }
+    .et{
+      font-size: 35px;
+      padding: 20px 20px;
+    }
+    .al-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight:400;
+        margin: 10px 0px;
+    }
+    
+    .al-list p{
+        margin: 0px 0px;
+    }
+    .al-pass{
+        display: flex;
+        width: 300px;
+}
+.ai-body{   
+    flex-direction: column; 
+    
+}
+.at{
+    font-size: 25px;
+    font-weight:400; 
+}
+.olpass-list{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight:400;
+    margin: 0px 0px;
+}
+
+
+.ol-list p{
+    margin-left: 0px;
+}
+.olbody-list{
+   
+  margin: 0px 100px;
+}
+}
+@media screen and (max-width : 1024px) {
+    .edu-header{
+        margin-top: 50px;
+    }
+    .et{
+      font-size: 35px;
+      padding: 20px 20px;
+    }
+    .al-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight:400;
+        margin: 10px 0px;
+    }
+    
+    .al-list p{
+        margin: 0px 0px;
+    }
+    .al-pass{
+        display: flex;
+        width: 300px;
+}
+.ai-body{   
+    flex-direction: column; 
+    
+}
+.at{
+    font-size: 25px;
+    font-weight:400; 
+}
+.olpass-list{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight:400;
+    margin: 0px 0px;
+}
+
+
+.ol-list p{
+    margin-left: 0px;
+}
+.olbody-list{
+   
+  margin: 0px 100px;
+}
+}
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+    .edu-header{
+        margin-top: 50px;
+    }
+    .et{
+      font-size: 35px;
+      padding: 20px 20px;
+    }
+    .al-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight:400;
+        margin: 10px 0px;
+    }
+    
+    .al-list p{
+        margin: 0px 0px;
+    }
+    .al-pass{
+        display: flex;
+        width: 300px;
+}
+.ai-body{   
+    flex-direction: column; 
+    
+}
+.at{
+    font-size: 25px;
+    font-weight:400; 
+}
+.olpass-list{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight:400;
+    margin: 0px 0px;
+}
+
+
+.ol-list p{
+    margin-left: 0px;
+}
+.olbody-list{
+   
+  margin: 0px 100px;
+}
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    .edu-header{
+        margin-top: 50px;
+    }
+    .et{
+      font-size: 20px;
+      padding: 20px 10px;
+    }
+    .al-list{
+        display: flex;
+        
+        font-size: 15px;
+        font-weight:400;
+        margin: 10px 0px;
+    }
+    
+    .al-list p{
+        margin: 0px 0px;
+    }
+    .al-pass{
+        display: flex;
+        width: 240px;
+}
+.ai-body{   
+    flex-direction: column;  
+}
+.at{
+    font-size: 18px;
+    font-weight:400; 
+}
+.olpass-list{
+    flex-direction: column;
+    font-size: 15px;
+    font-weight:400;
+    margin: 0px 0px;
+}
+
+
+.ol-list p{
+    margin-left: 0px;
+}
+.olbody-list{
+   
+  margin: 0px 20px;
+}
+}

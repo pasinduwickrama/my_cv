@@ -1,0 +1,410 @@
+.about-body{
+  background-color: var(--hed3);
+  color: var(--hed1);
+}
+
+.about-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--hed2);
+  box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+  border-radius: 10px; 
+  margin: 30px 50px;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+
+  
+}
+.headerab{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  transition: transform 800ms ease;
+  width: 97.5%;
+ 
+}
+.headerab:hover{
+  transform: scale(1.05);
+}
+.headerabh{
+  background-color: var(--hed2);
+  box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+.headerabh:hover{
+  background-color:  #3efcec;
+}
+.about-header h2{
+  width: 60%;
+  margin-top: 20px;
+}
+.skil-header{
+  margin: 20px 0px;
+  
+ 
+}
+.skil-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px 50px;
+}
+.skilname{
+  
+ flex: 1;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin: 0px 10px;
+ 
+}
+.skilname p{
+  
+  flex: 3;
+  color: var(--hed1);
+  font-weight: 500;
+
+ }
+ .f{
+  color: var(--hed1);
+ 
+ }
+ .na{
+  color: rgb(90, 28, 28);
+ }
+.skilbar{
+  flex: 2;
+  margin: 10px 0px;
+}
+.skilbarr{
+  flex: 1;
+  margin: 10px 0px;
+}
+.skilnumber{
+  flex: 1;
+}
+.wrapper {
+    border:    #3C4254;
+    width: 80%;
+   
+  }
+  .label {
+   display: none;
+    
+  }
+  .containerr{
+   height: 10px;
+   width: 100%;
+   background-color: #3C4254;
+   border-radius: 6px;
+    
+  }
+  .barCompleted{
+    background-color: #30E0A1;
+    width: 90%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+
+  .barCompleted2{
+    background-color: #FFB545;
+    width: 70%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  .barCompleted3{
+    background-color: #FA2256;
+    width: 60%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted4{
+    background-color: #246CF9;
+    width: 75%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted5{
+    background-color: #30E0A1;
+    width: 60%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted15{
+    background-color: #00be30;
+    width: 60%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted6{
+    background-color: #30E0A1;
+    width: 45%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted16{
+    background-color: #00b82e;
+    width: 60%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+
+
+  .barCompleted7{
+    background-color: #FFB545;
+    width: 30%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted8{
+    background-color: #FA2256;
+    width: 20%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted9{
+    background-color: #246CF9;
+    width: 55%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+  }
+  .barCompleted10{
+    background-color: #30E0A1;
+    width: 10%;
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    animation: progres 1.0s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+   
+  }
+
+  @keyframes animate {
+    0%
+    {
+      background-position: 0 0;
+    }
+    0%
+    {
+      background-position: 10% 0;
+    }
+  }
+
+  @keyframes progres {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+
+  .skil{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin: 0px 50px;
+    
+    
+  }
+
+  .skil-one{
+    flex: 1;
+    background-color: var(--hed2);
+    box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+    border-radius: 10px;
+    
+  }
+
+  .skil-two{
+    flex: 1;
+    background-color: var(--hed2);
+    border-radius: 10px;
+    box-shadow: rgba(72, 255, 0, 0.4) 0px 2px 6px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    border-radius: 20px;
+
+  }
+
+  /* for 24 inch */
+@media screen and (max-width : 1920px) {
+    
+}
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+  .about-header h2{
+    width: 90%;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .skil-list{
+    margin: 0px 0px;
+}
+.skil{
+  flex-direction: column;
+  margin: 0px 25px;
+}
+.skil-one{
+ margin-bottom: 20px;
+  
+}
+.skilname p{
+
+  font-size: 18px;
+  font-weight: 200;
+
+ }
+
+ .skil-header h2{
+  font-size: 25px;
+}
+
+.skilname{
+justify-content: space-around;
+margin: 0px 0px;
+
+}
+.skilbar{
+ 
+  margin: 10px 10px;
+}
+.skilbarr{
+  
+  margin: 10px 10px;
+}
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+  .about-header h2{
+    width: 90%;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+
+  .skil-list{
+    margin: 0px 0px;
+}
+.skil{
+  flex-direction: column;
+  margin: 0px 15px;
+}
+.skil-one{
+ margin-bottom: 20px;
+  
+}
+.skilname p{
+
+  font-size: 15px;
+  font-weight: 200;
+
+ }
+
+ .skil-header h2{
+  font-size: 20px;
+}
+
+.skilname{
+justify-content: space-around;
+margin: 0px 0px;
+
+}
+.skilbar{
+ 
+  margin: 10px 10px;
+}
+.skilbarr{
+  
+  margin: 10px 10px;
+}
+}
