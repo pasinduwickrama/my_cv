@@ -77,7 +77,7 @@ export default function Hero() {
                         
                         <div className='animati-name'>
                          <div className='wel'>WELCOME TO MY WORLD</div>
-                            <h1>Hi, I'm <span>Pasindu</span></h1>
+                            <h1>Hi, I'm <span>Dananjan</span></h1>
                             <h2>A <span> <Typewriter
                                     options={{
                                         strings: ['Front-end Developer.....','Back-end Developer.....', 'Full Stack Developer.....'],
